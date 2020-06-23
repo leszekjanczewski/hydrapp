@@ -1,8 +1,8 @@
 import '../scss/main.scss';
 
 // uncomment the lines below to enable PWA
-import { registerSW } from './pwa.js';
-registerSW();
+// import { registerSW } from './pwa.js';
+// registerSW();
 
 /* place your code below */
 
@@ -20,7 +20,7 @@ let currentGlassCounter = 0;
 if (localStorageValue) {
   currentGlassCounter = localStorageValue;
 } else {
-  localStorage.setItem(key, 0);
+  currentGlassCounter = localStorage.setItem(key, 0);
 }
 
 glassCounter.innerHTML = currentGlassCounter;

@@ -1,0 +1,18 @@
+.nav {
+  
+  &__history {
+    position: absolute;
+    width: 128px;
+    height: 32px;
+    left: 6px;
+    top: 16px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+  }
+  .history--link {
+    color: #ffffff;
+    text-decoration: none;
+  }
+}
