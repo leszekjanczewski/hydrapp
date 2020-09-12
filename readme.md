@@ -1,4 +1,4 @@
-![cover](https://cotenfrontend.pl/img/cover.png)
+![cover](https://github.com/leszekjanczewski/hydrapp/blob/master/public/pwa/apple-icon-120.png)
 
 # WTF Webpack Starter Kit 
 
